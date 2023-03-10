@@ -6,6 +6,8 @@
 nav{
     display: flex;
     justify-content: space-between;
+    background: #1a1244;
+    padding: 10px 200px;
 }
 
 nav ul{
@@ -18,4 +20,18 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav div{
+    color: white;
+    font-size: 20px;
 }
