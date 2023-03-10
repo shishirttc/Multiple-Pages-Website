@@ -28,6 +28,10 @@ nav ul li a{
     transition: 0.5s;
 }
 
+nav ul li .current{
+    color: red;
+}
+
 nav ul li a:hover{
     color: red;
 }
@@ -60,7 +64,7 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin-left: -10px;
+    margin-left: 20px;
 }
 .SearchBox-icon-parent i:hover{
     cursor: pointer;
@@ -75,4 +79,40 @@ header{
 }
 .SearchBox-icon-parent input::placeholder {
     font-size: 20px;
+}
+
+/* Main section code start */
+
+main{
+    background: #2d236a;
+    padding-top: 20px;
+}
+.main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-video-text{
+    font-size: 25px;
+    color: #04aa6d;
+    font-weight: bold;
+}
+
+.latest-pages{
+    color: #04aa6d;
+}
+
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: 1px solid #8080805b;
+    cursor: pointer;
 }
