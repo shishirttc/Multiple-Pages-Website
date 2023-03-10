@@ -8,6 +8,7 @@ nav{
     justify-content: space-between;
     background: #1a1244;
     padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
 }
 
 nav ul{
@@ -33,5 +34,45 @@ nav ul li a:hover{
 
 nav div{
     color: white;
+    font-size: 20px;
+}
+
+header{
+    background-image: url(images/website-banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.SearchBox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBox-icon-parent i{
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+.SearchBox-icon-parent i:hover{
+    cursor: pointer;
+}
+
+.SearchBox-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.SearchBox-icon-parent input::placeholder {
     font-size: 20px;
 }
