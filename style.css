@@ -213,6 +213,10 @@ footer{
     margin-bottom: 50px;
 }
 
+.footer-firstItem .copy{
+    margin-top: 70px;
+}
+
 .footer-secoundItem h3{
     font-size: 25px;
     padding: 30px 0;
