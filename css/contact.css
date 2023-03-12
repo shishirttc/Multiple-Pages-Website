@@ -12,6 +12,7 @@ form h2{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .name-email-parent input{
