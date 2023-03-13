@@ -44,7 +44,7 @@ nav div{
 }
 
 header{
-    background-image: url(images/website-banner.jpg);
+    background-image: url(../images/website-banner.jpg);
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center;
